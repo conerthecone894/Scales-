@@ -12,7 +12,7 @@ void draw() {
 
   if (b > 175 && up == true)
     up = false;
-  if (b < 88 && up == false)
+  if (b < 50 && up == false)
     up = true;  
   
   if (up == true){
@@ -35,7 +35,6 @@ void draw() {
     }
   }
   // draws scales
- delay(25);
 }
 
 void scale(int x, int y, int f){
